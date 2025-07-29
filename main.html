@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio -Rutuja Ubale</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <a href="#first">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+
+    </nav>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/ubalerutuja/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.facebook.com.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/_rutu_ubale/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#contacts" class="connect-btn">Contact -></a>
+    </div>
+  </header>
+
+  <main class="hero" id="first">
+    <div class="content">
+      <span class="tag">Welcome to my Portfolio</span>
+      <h1>Hi! I'm Rutuja Ubale<br><span class="highlight">Design</span></h1>
+     <p>
+             I'm an enthusiastic IT student with a strong passion for web development, Java programming, and creative design. 
+              I love turning ideas into visually appealing and functional web applications.
+      </p>
+ 
+      <a href="https://www.linkedin.com/in/ubalerutuja/" class="connect-link">Let's Connect</a>
+    </div>
+    <div class="main_photo">
+      <div class="photo">
+      <img src="pic.png" alt="photo" />
+       </div>
+    </div>
+    
+  </main>
+
+  <!-- SKILLS SECTION -->
+<section class="skills-section" id="skills">
+  <h2>Skills</h2>
+<p class="desc">
+Here are some of the technologies and programming languages I’ve worked with during my projects and internships.
+</p>
+  <div class="skills-container">
+    <div class="skill">
+      <span class="percentage">80%</span>
+      <p>Web Development</p>
+    </div>
+    <div class="skill">
+      <span class="percentage">60%</span>
+      <p>Java Language</p>
+    </div>
+    <div class="skill">
+      <span class="percentage">50%</span>
+      <p>DSA</p>
+    </div>
+    <div class="skill">
+      <span class="percentage">50%</span>
+      <p>Python</p>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="project-section">
+  <h2>Introduction</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <video src="capstron.mp4" autoplay loop muted></video>
+      </div>
+     
+    </div>
+
+    
+</section> -->
+
+
+
+<!-- PROJECTS SECTION -->
+<section class="projects-section" id="projects">
+  <h2>Projects</h2>
+<p class="desc">
+Here are a few projects I've developed to solve real-world problems and improve my technical skills.
+Each one reflects a different phase of my learning journey.
+</p>
+  <!-- <div class="tabs">
+    <button class="tab active" data-tab="tab1">Tab 1</button>
+    <button class="tab" data-tab="tab2">Tab 2</button>
+    <button class="tab" data-tab="tab3">Tab 3</button>
+  </div> -->
+<div class="main_projects">
+ <div class="projects-gallery" id="tab1">
+    <video src="capstron.mp4" autoplay loop muted></video>
+    <h4>BookStore management system Website</h4>
+    <p>Languages:HTML,CSS,JAVASCRIPT</p>
+    
+  </div>
+   <div class="projects-gallery" id="tab1">
+    <video src="inventry.mp4" autoplay loop muted></video>
+     <h4>Inventory Management System</h4>
+     <p>Advance java language programming</p>
+  </div>
+   <div class="projects-gallery" id="tab1">
+    <video src="expence.mp4" autoplay loop muted></video>
+     <h4>Expence Tracker Website</h4>
+    <p>Languages:HTML,CSS,JAVASCRIPT</p>
+    
+  </div>
+</div>
+ 
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contacts">
+  <div class="contact-container">
+    <div class="image">
+      <img src="i.png" alt="Contact Illustration">
+    </div>
+    <div class="form">
+      <h2>Get In Touch</h2>
+      <p class="desc">
+Have a question, suggestion, or opportunity? Feel free to reach out to me directly using the form below — I’d love to connect!
+</p>
+
+      <form action="https://formsubmit.co/rutujaubale1372005@gmail.com.com" method="POST">
+  <div class="input-row">
+    <input type="text" name="First Name" placeholder="First Name" required />
+    <input type="text" name="Last Name" placeholder="Last Name" required />
+  </div>
+  <div class="input-row">
+    <input type="email" name="Email" placeholder="Email Address" required />
+    <input type="tel" name="Phone" placeholder="Phone No." />
+  </div>
+  <textarea name="Message" placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+
+  <!-- Optional: to prevent spam -->
+  <input type="hidden" name="_captcha" value="false">
+</form>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
